@@ -13,6 +13,12 @@
 ### HW3-使用huggingface进行模型下载
 使用教程中的查看文件可以确定下载成功
 ![alt text](show.png)
+```python
+#show.py
+import os 
+from huggingface_hub import hf_hub_download  # Load model directly 
+hf_hub_download(repo_id="internlm/internlm2-7b", filename="config.json")
+```
 ### HW4-部署浦语·灵笔2模型
 图文创作部署成功截图：
 ![alt text](image-4.png)

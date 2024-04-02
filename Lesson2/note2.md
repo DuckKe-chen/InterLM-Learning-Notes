@@ -22,12 +22,29 @@ Hugging Face是一家美国公司，专门开发用于构建机器学习应用�
 ![alt text](huggingface.png)
 <center>网站截图</center>
 
-按照教程创建下载的py文件
-
-![alt text](download.png)
+按照教程创建下载的py文件（全部下载）
+```python
+import os
+# 下载模型
+os.system('huggingface-cli download --resume-download internlm/internlm2-chat-7b --local-dir your_path')
+```
+部分下载代码：
+```python
+import os
+from huggingface_hub import hf_hub_download # Load model directly
+hf_hub_download(repo_id="internlm/internlm-7b", filename="config.json”)
+```
 使用教程中的查看文件可以确定下载成功
 ![alt text](show.png)
+查看文件：
+```python
+#show.py
+import os 
+from huggingface_hub import hf_hub_download  # Load model directly 
+hf_hub_download(repo_id="internlm/internlm2-7b", filename="config.json")
+```
 ### HW4-部署浦语·灵笔2模型
+注：使用的图片为网图，如侵权请联系作者删除
 按照教程安装依赖库的时候遇到报错
 ![alt text](image-2.png)
 按照报错安装cmake、lit并修改huggingface-hub的版本
