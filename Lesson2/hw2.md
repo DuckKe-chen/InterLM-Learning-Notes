@@ -1,5 +1,6 @@
 # 书生·浦语大模型训练营第二节课笔记
 教程链接：https://github.com/InternLM/Tutorial/blob/camp2/helloworld/hello_world.md
+
 作业要求：https://github.com/InternLM/Tutorial/blob/camp2/helloworld/homework.md
 ## 基础作业
 ### HW1-使用 InternLM2-Chat-1.8B 模型生成 300 字的小故事
