@@ -13,3 +13,8 @@
 ### HW3-使用huggingface进行模型下载
 使用教程中的查看文件可以确定下载成功
 ![alt text](show.png)
+### HW4-部署浦语·灵笔2模型
+图文创作部署成功截图：
+![alt text](image-4.png)
+视觉问答部署成功截图：
+![alt text](image-6.png)
