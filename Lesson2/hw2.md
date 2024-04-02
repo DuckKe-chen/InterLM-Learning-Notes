@@ -1,4 +1,4 @@
-# 书生·浦语大模型训练营第二节课笔记
+# 书生·浦语大模型训练营第二节课作业
 教程链接：https://github.com/InternLM/Tutorial/blob/camp2/helloworld/hello_world.md
 
 作业要求：https://github.com/InternLM/Tutorial/blob/camp2/helloworld/homework.md
