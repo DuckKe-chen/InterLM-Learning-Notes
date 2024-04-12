@@ -35,7 +35,5 @@ assert (len(context) <= context_max_length)
 /root/huixiangdou/huixiangdou/service/retriever.py
 ![alt text](image-5.png)
 依旧没有效果  
-重新检查了一遍发现是在粘贴过程中，输入格式出错
-![alt text](image-6.png)
-又尝试了下，发现是terminal对中文的支持不是太好，遂使用jupyter notebook中的terminal
+报错代码是“ErrorCode.UNRELATED”，推测为是没有相关的信息
 
