@@ -27,7 +27,7 @@ assert (len(context) <= context_max_length)
 /root/huixiangdou/huixiangdou/service/retriever.py 第110行
 ![alt text](image-5.png)
 不出现报错，但后面输出了很多文本，不知道是什么原因。。。  
-**补：**看完视频后，认为应该是加长了最长文本长度，所以综合文件数更多，导致输出的相关语料也变多了  
+**补：** 看完视频后，认为应该是加长了最长文本长度，所以综合文件数更多，导致输出的相关语料也变多了  
 继续进行实验，尝试问茴香豆教程中的三个问题：
 成功回答第一个问题：
 ![alt text](image-14.png)
