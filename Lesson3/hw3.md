@@ -26,6 +26,7 @@ RAG可以分为三个部分，分别为索引、检索和生成
 
 ### 茴香豆官方网页版对话截图
 上传了一个深度学习的八股文件
+![alt text](image-18.png)
 前两个问题过于简单，被茴香豆识别为不需要使用数据库
 ![alt text](image-7.png)
 第三个问题问的更细了点，茴香豆使用了上传文件中的知识
@@ -37,5 +38,17 @@ RAG可以分为三个部分，分别为索引、检索和生成
 ![alt text](image-12.png)
 ![alt text](image-13.png)
 ### 作业二
-问题"茴香豆怎么部署到微信群？"提问截图：
-![alt text](image-3.png)
+good question配置：
+![alt text](image-19.png)
+测试列表截图；
+![alt text](image-20.png)
+提取文件结果截图：
+![alt text](image-21.png)
+成功提取22个文件，异常26个  
+成功回答第一个问题 “huixiangdou 是什么”：
+![alt text](image-14.png)
+成功回答第二个问题 “茴香豆怎么部署到微信群”：
+![alt text](image-15.png)
+第三个问题 “今天天气怎么样？”：
+![alt text](image-16.png)
+输出结果与教程一致，因为助手判断问题主题与预料主题不符，所以拒绝回答该问题
