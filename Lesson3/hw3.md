@@ -41,7 +41,7 @@ RAG可以分为三个部分，分别为索引、检索和生成
 good question配置：
 ![alt text](image-19.png)
 测试列表截图；
-![alt text](image-20.png)
+![alt text](image-20.png)  
 提取文件结果截图：
 ![alt text](image-21.png)
 成功提取22个文件，异常26个  
