@@ -24,7 +24,7 @@
 assert (len(context) <= context_max_length)
 ```
 尝试将context_max_length放大十倍，修改:  
-/root/huixiangdou/huixiangdou/service/retriever.py
+/root/huixiangdou/huixiangdou/service/retriever.py 第110行
 ![alt text](image-5.png)
 不出现报错，但后面输出了很多文本，不知道是什么原因。。。  
 **补：**看完视频后，认为应该是加长了最长文本长度，所以综合文件数更多，导致输出的相关语料也变多了  
