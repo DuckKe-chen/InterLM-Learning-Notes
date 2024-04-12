@@ -40,10 +40,10 @@ RAG可以分为三个部分，分别为索引、检索和生成
 ### 作业二
 good question配置：
 ![alt text](image-19.png)
-测试列表截图；
+测试列表截图:  
 ![alt text](image-20.png)  
-提取文件结果截图：
-![alt text](image-21.png)
+提取文件结果截图:  
+![alt text](image-21.png)  
 成功提取22个文件，异常26个  
 成功回答第一个问题 “huixiangdou 是什么”：
 ![alt text](image-14.png)
